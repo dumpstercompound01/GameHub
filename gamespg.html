@@ -4,124 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-         * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Courier New', monospace;
-      background:black;
-      color: #0ff;
-      overflow-x: hidden;
-
-    }
-    header {
-      background: #000;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 3px solid #0ff;
-    }
-    header h1 {
-      font-size: 3rem;
-      text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-    }
-    
-    nav {
-      margin-top: 10px;
-    }
-    nav a {
-      color: #0ff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      position: relative;
-    }
-    nav a::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: -5px;
-      width: 100%;
-      height: 2px;
-      background: #0ff;
-      transform: scaleX(0);
-      transition: transform 0.3s ease;
-    }
-    nav a:hover::after {
-      transform: scaleX(1);
-    }
-    h2{
-        text-align: center;
-        padding:15px;
-        font-size: 3rem;
-       font-size: 2.5rem;
-        color: #fff;
-        text-shadow: 0 0 10px #0ff;
-    }
-     .games-section {
-      padding: 60px 20px;
-      background: #111111;
-    }
-    .games-section h3 {
-      text-align: center;
-      margin-bottom: 40px;
-      font-size: 2rem;
-      color: #0ff;
-    }
-    .games-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .game-card {
-      background: #000;
-      border: 2px solid #0ff;
-      padding: 20px;
-      text-align: center;
-      border-radius: 8px;
-      box-shadow: 0 0 15px #0ff55a;
-      transition: transform 0.3s ease;
-    }
-    .game-card:hover {
-      transform: scale(1.05);
-    }
-    .game-card img {
-      width: 100%;
-      border-radius: 4px;
-      margin-bottom: 10px;
-    }
-    .game-card h4 {
-      margin: 10px 0;
-    }
-    .yinyang{
-        color:white;
-        font-size: 60px;
-    }
-    .death_symbol{
-        color:#e60808;
-        font-size: 40px;
-    }
-    footer {
-      background: #000;
-      text-align: center;
-      padding: 20px;
-      border-top: 2px solid #0ff;
-      color: #aaa;
-    }
-    </style>
+    <link  rel="stylesheet" href = "games.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
  <h1>GAMEPLAY ARCADE</h1>
     <nav>
-      <a href="AracdeHub.html">Home</a>
+      <a href="index.html">Home</a>
       <a href="gamespg.html">Games</a>
       <a href="about+contact.html">About</a>
-      <a href="about+contact.html">Contact</a>
+      <a href="about+contact.html#contact-section">Contact</a>
     </nav>
     </header>
     <h2> GAME CARDS</h2>
@@ -130,63 +23,63 @@
     <h3>Featured Games</h3>
     <div class="games-grid">
       <div class="game-card">
-        <img src="Need for Speed Heat Video Games Free.jpg" alt="Game 1">
+        <img src="assets/Need for Speed Heat Video Games Free.jpg" alt="Game 1">
         <h4>Need For Speed</h4>
         <p>Ready for a thrilling ride?Maybe,there's some need for speed!</p>
       </div>
       <div class="game-card">
-        <img src="download (20).jpg" alt="Game 2">
+        <img src="assets/download (20).jpg" alt="Game 2">
         <h4>TEKKEN</h4>
         <p>"Wanna set your rivarly?This is your chance<br><span class="death_symbol">&#9760;</span></p>
       </div>
       <div class="game-card">
-        <img src="49d62582-4ea5-4475-b77b-9723cc4da7d9.jpg" alt="Game 3">
+        <img src="assets/49d62582-4ea5-4475-b77b-9723cc4da7d9.jpg" alt="Game 3">
         <h4>FIFA 17</h4>
         <p>Wanna quest your football fever?Jump into the Gameplay.</p>
       </div>
       <div class="game-card">
-        <img src="download (21).jpg" alt="Game 4">
+        <img src="assets/download (21).jpg" alt="Game 4">
         <h4>KILLER INSTINCT</h4>
         <p>Rip, shred, and dominate—Killer Instinct isn't a fight, it's a freakin' massacre.</p>
       </div>
       <div class="game-card">
-        <img src="STREET FIGHTER 6.jpg" alt="Game 5">
+        <img src="assets/STREET FIGHTER 6.jpg" alt="Game 5">
         <h4>STREET FIGHTER</h4>
         <p> Only one will stand. Will it be you?</p>
       </div>
       <div class="game-card">
-        <img src="mortal combat.jpg" alt="Game 6">
+        <img src="assets/mortal combat.jpg" alt="Game 6">
         <h4>MORTAL KOMBAT</h4>
         <p>You’ve got one shot. One spine to snap.Fight like a legend… or die like the rest.Your choice<br> <span class="yinyang">&#9775;</span></p>
       </div>
       <div class="game-card">
-        <img src="湾岸 𝑾𝒂𝒏𝒈𝒂𝒏 𝑴𝒊𝒅𝒏𝒊𝒈𝒉𝒕- 𝑩𝒍𝒂𝒄𝒌𝑩𝒊𝒓𝒅 𝐕𝐒 𝑴𝒐𝒏𝒔𝒕𝒆𝒓 𝑴𝒂𝒄𝒉𝒊𝒏𝒆 (𝑺𝒖𝒑𝒓𝒂).jpg" alt="Game 7">
+        <img src="assets/湾岸 𝑾𝒂𝒏𝒈𝒂𝒏 𝑴𝒊𝒅𝒏𝒊𝒈𝒉𝒕- 𝑩𝒍𝒂𝒄𝒌𝑩𝒊𝒓𝒅 𝐕𝐒 𝑴𝒐𝒏𝒔𝒕𝒆𝒓 𝑴𝒂𝒄𝒉𝒊𝒏𝒆 (𝑺𝒖𝒑𝒓𝒂).jpg" alt="Game 7">
         <h4>湾岸 𝑾𝒂𝒏𝒈𝒂𝒏 𝑴𝒊𝒅𝒏𝒊𝒈𝒉𝒕</h4>
         <p>You’ve got soft hands, rookie. Wangan don’t like soft.<br></p>
       </div>
       <div class="game-card">
-        <img src="download (22).jpg" alt="Game 8">
+        <img src="assets/download (22).jpg" alt="Game 8">
         <h4>CALL OF DUTY-BLACK OPS</h4>
         <p>This isn’t arcade shooting, rookie. This is Black Ops — silence, blood, and decisions you won’t come back from.</p>
       </div>
       <div class="game-card">
-        <img src="download (23).jpg" alt="Game 9">
+        <img src="assets/download (23).jpg" alt="Game 9">
         <h4>HONKAI IMPACT 3RD</h4>
         <p>High heels, plasma cannons, and a collapsing world. Sounds like your kind of party?"
 Then take the controller, captain — and pray you keep up.</p>
       </div>
       <div class="game-card">
-        <img src="download (25).jpg" alt="Game 10">
+        <img src="assets/download (25).jpg" alt="Game 10">
         <h4>FORZA HORIZON</h4>
         <p>Looks like you’ve got the touch. Question is — can you keep it when the road disappears?</p>
       </div>
       <div class="game-card">
-        <img src="download (26).jpg" alt="Game 11">
+        <img src="assets/download (26).jpg" alt="Game 11">
         <h4>PES 2024</h4>
         <p>You ready to command the pitch… or chase it?</p>
       </div>
       <div class="game-card">
-        <img src="download (24).jpg" alt="Game 12">
+        <img src="assets/download (24).jpg" alt="Game 12">
         <h4>DEVIL MAY CRY 5</h4>
         <p>You can swing a sword? Cool.
  Now try doing it mid-air, flipping a bike, taunting a demon mid-split.
